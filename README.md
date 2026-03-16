@@ -28,3 +28,18 @@ The backend is live and serving traffic at:
    ```bash
    git clone [https://github.com/jayvee2010/term-ai-debugger.git](https://github.com/jayvee2010/term-ai-debugger.git)
    cd term-ai-debugger
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3.  **Run the development server:**
+   ```bash
+   python main.py
+
+## 🚧 Challenges Overcome
+- Port Binding & Health Checks: Navigating Cloud Run's requirements was a major technical hurdle. I solved the "failed to start"        errors by implementing dynamic port assignment using the $PORT environment variable.
+
+- Stateless Intelligence: Designed a system to transition from a local interactive script to a cloud-native API, ensuring the backend   could handle multimodal data (text and images) with minimal latency.
+
+- Environment Orchestration: Successfully troubleshot and resolved Google Cloud SDK pathing issues and ZIP archive timestamp bugs on    MacOS to ensure a stable deployment pipeline.
+
+   
