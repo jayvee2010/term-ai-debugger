@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "terminal-debugger",
+  "private_key_id": "01283a7442239da1b8248502d67e986c8e35b448",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDkw3pPj82yVOq2\nIuGB3oUQ0YPO/53DbyltO37hn1LwFWSyBJ/pfgEAsBrEFlwdW6t6ehok96XJck+Q\nO5uranfTdztHqvdaiBKtGH37nLGmlVSmvkbmrTAP9Fu1w1bWY33tGYQ+okj8XRIa\nvISn3z96EXnI7w+TSUS2p1puHSqnhx08J6T/Y3642vjl1tOSL0TrIoSiNfK5rWhA\n+qajdXT7R8OcY4xqwGFDYdqj2n9DdYw/yv7tWQrj8Ea7YthDzYAxeclzlCFmV87e\nilMJEa80z5fD1vbihivOyr7a7oSVgIN/+gTtqaaQ/RIQ52uihcIp18j+LzRO44MN\ngTpkDWOlAgMBAAECggEAGEKz2La1N5WiW6UI2dtFrOIvUpdQvZ5vHAa8fsSFCPGX\n33o2lE5Y4GAMwqFlbPahEajb13JNCnddQTxVFsGAijRhnMjgmSEHrARGLhYwz+wT\n0WgqAEI7L+H4DOd1sOBVxTyYxgSzbVIYfq3h+qSmKHWsfvb9ZZ8WUrGeWUGuGZx7\nFIPb987Lj3ybknNQqi89y3jMlCM8XlSfWhZnX3sNj/2FSyBYyFH4trULoujAU7O7\nwaX6T2P+wmmcMrkEYnQbI35aiP4UysBDh4nG5PP3B0HY68nbtto2Nm4n+M4dnpUW\nQoMPeYtC+8VazKdsRbClnfx2gYpVE9+i/jejjbdlqQKBgQDzXgoD81iooNY3Mp2k\nfP8kEI8AQDmoZd59TRytI1vAtJ7GrC7huyoiFuBMCahd23HFrcLgEqFQ6JWoGhcH\nJPlyc+hgIsMOzkVH14HWDjvSatunBc/D82wiaTpiNRaEgagQHY2mYpkLt3ATdnYn\nv5MP4HgCU9p0BKLvPTA31Nwr+QKBgQDwo2DSm/L93QFuJqmtcGitYhBQvFgdhHAJ\ntbX5pugr0QxyFxGdNT7I+oz7KSGXx972YAWixKSyVUl89iIupBm2CXaPFaiEm7LJ\noROmsbVP0ewy6HyMqUAQiYI9buBMvRFtpOCF+CWbplS4U0ELRQwLdtBr5iUaYGGR\nArVoR5JoDQKBgFC2JG4w+3tZdBH0WHHf/qIQV8zGgBjISCSYOWV2b4yWmn3bRuUY\nNJ3/pj2xikQubioYOaQkqZlyuYd5t59n9M6vgCa6AKTdZf6wi1/Zcp+TTuuysrgS\n+A7lhTZi0uf5NCq8EmlXE9jd6m6aAA+oqnY+hK6I7s9BZmQfj+lEUAzJAoGAODjz\n1kE5dLa+Ls45tpwc2OWgijx3Ge5nft1Ftx6YACTHk6BwLRrToIFpjwT9JEk+frHQ\nn0byc/gZQ2j+c4dDupRbbvLQfKskCpfnz3qVsiCJ3xsSforMvRBjrZbKMSO7frKX\nArYHk2Y5RReuisOHHOaVq6AJ6y+5m/fWCpcuTcECgYB5KQBG60Rl0O/CZG52YETX\nU6Ro7PFm5H+84cE+lEXnHr31pjobGy/DcjA4dfNWnz8AiiqacbjlRuDE3Aqfk51r\n0xrutH6x8rmIkks27RPmdW3Og8gHzh6Xw7nRhnV7PvVBvPUeFdFG86t2G/bvFDFz\nQve7HQhY/cxLliMNIrGzrA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "terminal-debugger@terminal-debugger.iam.gserviceaccount.com",
+  "client_id": "113684166934724347295",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terminal-debugger%40terminal-debugger.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

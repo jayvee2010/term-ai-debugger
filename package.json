@@ -1,0 +1,7 @@
+{
+  "name": "gemini-live-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python3 main.py"
+  }
+}

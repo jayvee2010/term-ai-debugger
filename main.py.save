@@ -1,0 +1,54 @@
+import os
+from flask import Flask, jsonify
+# This imports the logic from your debugger script
+from terminal_debugger import analyze_output, generate_command
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    # This gives Cloud Run the 'OK' it needs to stay alive
+    return "Terminal Debugger API is Active", 200
+
+@app.route('/health')
+def health():
+    return "OK", 200
+
+if __name__ == "__main__":
+    # Cloud Run assigns a port dynamically; we must use it
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host='0.0.0.0', port=port)
+
+
+
+XX\\\
+import os
+from flask import Flask, request, jsonify
+from terminal_debugger import analyze_output, generate_command
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def home():
+    return "Terminal Debugger API is Live!", 200
+
+@app.route('/debug', methods=['POST'])
+def debug():
+    data = request.json
+    cmd = data.get('command', '')
+    output = data.get('output', '')
+    exit_code = data.get('exit_code', 0)
+    analysis = analyze_output(cmd, output, exit_code)
+    return jsonify({"analysis": analysis})
+
+@app.route('/ask', methods=['POST'])
+def ask():
+    data = request.json
+    task = data.get('task', '')
+    suggestion = generate_command(task)
+    return jsonify({"command": suggestion})
+
+if __name__ == "__main__":
+    # Cloud Run MUST have this port logic
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host='0.0.0.0', port=port)

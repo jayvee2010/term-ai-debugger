@@ -1,0 +1,6 @@
+google-cloud-aiplatform
+Pillow
+mss
+vertexai
+flask
+gunicorn
