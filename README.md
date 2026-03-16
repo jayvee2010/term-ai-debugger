@@ -41,5 +41,18 @@ The backend is live and serving traffic at:
 - Stateless Intelligence: Designed a system to transition from a local interactive script to a cloud-native API, ensuring the backend   could handle multimodal data (text and images) with minimal latency.
 
 - Environment Orchestration: Successfully troubleshot and resolved Google Cloud SDK pathing issues and ZIP archive timestamp bugs on    MacOS to ensure a stable deployment pipeline.
+### 🛠️ Reproducible Testing Instructions
 
+1. **Clone the repo:**
+   `git clone https://github.com/jayvee-shah/terminal-debugger.git && cd terminal-debugger`
+2. **Setup Environment:**
+   `python3 -m venv venv && source venv/bin/activate`
+3. **Install Dependencies:**
+   `pip install -r requirements.txt`
+4. **Configure Credentials:**
+   Place your Google Cloud Service Account JSON key in the root folder.
+5. **Run the Debugger:**
+   `python3 terminal_debugger.py`
+6. **Test a command:**
+   Type `python3 -c "print(x)"` to see the AI analyze the NameError.
    
