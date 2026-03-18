@@ -55,4 +55,9 @@ The backend is live and serving traffic at:
    `python3 terminal_debugger.py`
 6. **Test a command:**
    Type `python3 -c "print(x)"` to see the AI analyze the NameError.
+
+
+![WhatsApp Image 2026-03-17 at 01 19 28](https://github.com/user-attachments/assets/0384f3df-1e27-41c4-b6a5-ce0afe893d38)
+
+
    
